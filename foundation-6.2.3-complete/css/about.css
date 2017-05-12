@@ -172,27 +172,60 @@ input[type="text"].dream-search:focus {
 }
 /*--- FOOTER END ---*/
 
+
+@media (min-width: 3000px){
+  body{
+    font-size: 3em;
+  }
+
+  .top-bar input{
+    max-width: 400px;
+  }
+
+  input[type="text"].dream-search{
+    width: 400px;
+  }
+
+  input[type="text"]{
+    height: 4.4375rem;
+  }
+
+  .about-content h1{
+    font-size: 12rem;
+  }
+
+  .about-content img{
+    width: 100%;
+  }
+
+  .about-content p{
+    font-size: 8rem;
+  }
+}
+
+
+
 @media screen and (max-width: 39.9375em){
     .site{
         text-align: center;
     }
     .footer-content{
-    
+
         text-align: center;
     }
-    
+
     .footer-content .copy{
         text-align: center;
     }
-    
+
     .footer-links li a:hover{
     color: #9ff050;
     }
-    
+
     .copy{
         padding-top: 1em;
     }
-    
+
     .copy p{
         text-align: center;
     }
@@ -200,32 +233,32 @@ input[type="text"].dream-search:focus {
 
 
 @media screen and (min-width: 40em) and (max-width: 55em) {
-   
+
     div.large-12.columns{
         padding: 0;
         padding-right: .5em;
     }
-    
+
     input[type="text"].dream-search {
         width: 120px;
         padding-left: 0;
     }
 
     input[type="text"].dream-search:focus {
-        
+
         transition: none;
     }
-    
+
     .footer-links li a{
         font-size: 1em;
     }
-    
+
     .footer-links{
         padding-right: 0;
         padding-left: 0;
-        
+
     }
-    
+
     .copy p{
         font-size: .7em;
     }

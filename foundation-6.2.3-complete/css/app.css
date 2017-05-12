@@ -89,7 +89,8 @@ input[type="text"].dream-search:focus {
 /*--- BANNER START ---*/
 
 #banner {
-    background: url(/images/children-82272_1280.jpg) no-repeat center center;
+    background: url("/images/children-82272_1280.jpg") no-repeat center center;
+    background-size: cover;
     position: relative;
     width: 100%;
     text-align: left;
@@ -162,7 +163,7 @@ hr#below-banner{
 }
 .bar h1{
     font-family: 'Anton', sans-serif;
-   
+
 }
 
 div.progress{
@@ -280,44 +281,81 @@ hr{
 }
 /*--- FOOTER END ---*/
 
+
+@media (min-width: 3000px){
+  body{
+    font-size: 3em;
+  }
+
+  .top-bar input{
+    max-width: 400px;
+  }
+
+  input[type="text"].dream-search{
+    width: 400px;
+  }
+
+  .form-wrap{
+    padding: 2em;
+  }
+
+  input[type="text"]{
+    height: 4.4375rem;
+  }
+
+  button.medium.button{
+    padding: 0.85em 1em;
+    font-size: 2.9rem;
+  }
+
+  .vid-text h2{
+    margin-top: auto;
+  }
+  .vid-text p{
+    font-size: 1em;
+  }
+
+}
+
+
 @media screen and (max-width: 39.9375em){
 
     #banner h1{
         line-height: 1em;
     }
-    
+
     .footer-content{
         text-align: center;
     }
-    
+
     .footer-content .copy{
         text-align: center;
     }
-    
+
     .form-wrap{
         display: none;
     }
-    
+
     .vid-text{
         text-align: center;
     }
-    
+
     .footer-links li a:hover{
     color: #9ff050;
     }
-    
+
     .bottom{
         padding-left: .5em;
         padding-right: .5em;
     }
-    
+
     .copy{
         padding-top: 1em;
     }
 }
 
 @media screen and (min-width: 40em) and (max-width: 42em){
-    
+
     #banner h1{
         line-height: 1.5em;
         font-size: 3em;
@@ -330,17 +368,17 @@ hr{
         padding: 0;
         padding-right: .5em;
     }
-    
+
     input[type="text"].dream-search {
         width: 120px;
         padding-left: 0;
     }
 
     input[type="text"].dream-search:focus {
-        
+
         transition: none;
     }
-    
+
     #banner{
         padding: 0;
     }
@@ -348,21 +386,21 @@ hr{
         margin-right: 1em;
         width: 15em;
     }
-    
+
     .footer-links li a{
         font-size: 1em;
     }
-    
+
     .footer-links{
         padding-right: 0;
         padding-left: 0;
-        
+
     }
-    
+
     .copy p{
         font-size: .7em;
     }
-    
+
     .vid-text h2{
     margin-top: -.2em;
     }
