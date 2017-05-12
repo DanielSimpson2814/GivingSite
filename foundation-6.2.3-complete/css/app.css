@@ -90,6 +90,7 @@ input[type="text"].dream-search:focus {
 
 #banner {
     background: url("/images/children-82272_1280.jpg") no-repeat center center;
+    background-size: cover;
     position: relative;
     width: 100%;
     text-align: left;
