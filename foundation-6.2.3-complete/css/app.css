@@ -281,6 +281,43 @@ hr{
 }
 /*--- FOOTER END ---*/
 
+
+@media (min-width: 3000px){
+  body{
+    font-size: 3em;
+  }
+
+  .top-bar input{
+    max-width: 400px;
+  }
+
+  input[type="text"].dream-search{
+    width: 400px;
+  }
+
+  .form-wrap{
+    padding: 2em;
+  }
+
+  input[type="text"]{
+    height: 4.4375rem;
+  }
+
+  button.medium.button{
+    padding: 0.85em 1em;
+    font-size: 2.9rem;
+  }
+
+  .vid-text h2{
+    margin-top: auto;
+  }
+  .vid-text p{
+    font-size: 1em;
+  }
+
+}
+
+
 @media screen and (max-width: 39.9375em){
 
     #banner h1{
